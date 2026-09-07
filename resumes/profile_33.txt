@@ -1,0 +1,9 @@
+Shortlist Candidate 33
+Email: shortlist_candidate_33@test.com
+GitHub: https://github.com
+
+SKILLS:
+Python, FastAPI, Docker, LangChain, PostgreSQL
+
+PROJECTS:
+Built an advanced structural RAG pipeline utilizing LangChain, vector search indexing, and deep multi-agent workflow routers.
