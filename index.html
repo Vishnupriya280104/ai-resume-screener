@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Screening Results</title>
+<style>
+  body{font-family:sans-serif;background:#0f172a;color:#e2e8f0;padding:2rem}
+  table{width:100%;border-collapse:collapse;margin-top:1rem}
+  th,td{padding:8px 12px;text-align:left;border-bottom:1px solid #334155;font-size:14px}
+  th{color:#94a3b8;text-transform:uppercase;font-size:11px}
+  .rej{color:#f59e0b}
+</style></head>
+<body>
+  <h2>Resume Screening Results</h2>
+  <div id="summary"></div>
+  <table id="tbl"><thead><tr>
+    <th>Rank</th><th>Name</th><th>Eligible</th><th>Score</th><th>Summary</th>
+  </tr></thead><tbody id="rows"></tbody></table>
+<script>
+  fetch('./results.json').then(r => r.json()).then(data => {
+    const rows = document.getElementById('rows');
+    data.sort((a,b) => (b.total_score||0) - (a.total_score||0));
+    data.forEach(c => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${c.eligible ? c.rank : '-'}</td>
+        <td>${c.candidate_name}</td>
+        <td class="${c.eligible ? '' : 'rej'}">${c.eligible ? 'Yes' : 'No'}</td>
+        <td>${c.eligible ? c.total_score : 0}</td>
+        <td>${c.eligible ? c.project_summary : (c.rejection_reasons||[]).join('; ')}</td>`;
+      rows.appendChild(tr);
+    });
+  }).catch(e => document.body.innerHTML += '<p>Could not load results.json — run main.py first.</p>');
+</script>
+</body>
+</html>
