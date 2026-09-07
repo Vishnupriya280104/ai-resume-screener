@@ -1,0 +1,1103 @@
+{
+  "batch_summary": {
+    "total_resumes": 50,
+    "successfully_parsed": 50,
+    "eligible": 33,
+    "rejected": 17,
+    "failed_unreadable": 0
+  },
+  "results": [
+    {
+      "candidate_name": "Shortlist Candidate 02",
+      "file_processed": "profile_02.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 35,
+        "python_backend": 22,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "React",
+        "Next.js"
+      ],
+      "project_summary": "Engineered a conversational AI agent platform with stateful LangGraph pipelines served via FastAPI and monitored through React telemetry dashboards.",
+      "github_summary": "No public GitHub link provided on resume.",
+      "strengths": [
+        "Hands-on experience with stateful AI workflows using LangGraph",
+        "FastAPI backend development in Python",
+        "Fullstack dashboard building with React and Next.js"
+      ],
+      "concerns": [
+        "No specific database (PostgreSQL/Vector DB) mentioned",
+        "No explicit containerization or cloud platform (Docker/AWS/GCP) listed"
+      ],
+      "rank": 1
+    },
+    {
+      "candidate_name": "Shortlist Candidate 33",
+      "file_processed": "profile_33.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 35,
+        "python_backend": 25,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "LangChain",
+        "PostgreSQL",
+        "RAG",
+        "Vector Search"
+      ],
+      "project_summary": "Built an advanced structural RAG pipeline utilizing LangChain, vector search indexing, and deep multi-agent workflow routers.",
+      "github_summary": "No public GitHub link provided on resume.",
+      "strengths": [
+        "Sophisticated AI architectures including multi-agent routers and RAG vector search",
+        "Core Python backend expertise using FastAPI and PostgreSQL",
+        "Containerization familiarity with Docker"
+      ],
+      "concerns": [
+        "Project description is brief with limited implementation and deployment details",
+        "No explicit mention of unit testing, monitoring, or production engineering practices"
+      ],
+      "rank": 2
+    },
+    {
+      "candidate_name": "Shortlist Candidate 03",
+      "file_processed": "profile_03.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 67,
+      "score_breakdown": {
+        "ai_project_depth": 35,
+        "python_backend": 22,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "project_summary": "Built a structural RAG pipeline utilizing LangChain, vector search indexing, and multi-agent workflow routers.",
+      "github_summary": "No public GitHub link provided on resume.",
+      "strengths": [
+        "Strong modern AI stack (RAG, Multi-Agent workflows, Vector Search)",
+        "Core Python backend tools (FastAPI, PostgreSQL)",
+        "Containerization knowledge (Docker)"
+      ],
+      "concerns": [
+        "No explicit mention of unit testing, CI/CD, or deployment to GCP/AWS",
+        "Limited details on backend scale, performance optimization, or caching"
+      ],
+      "rank": 3
+    },
+    {
+      "candidate_name": "Shortlist Candidate 32",
+      "file_processed": "profile_32.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 64,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 20,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "Python",
+        "Java",
+        "React",
+        "Next.js",
+        "LangGraph",
+        "FastAPI"
+      ],
+      "project_summary": "Engineered a conversational AI agent platform using stateful LangGraph pipelines served via FastAPI with interactive React dashboards.",
+      "github_summary": "No public GitHub link provided on resume.",
+      "strengths": [
+        "Experience with stateful multi-agent workflows using LangGraph",
+        "Full stack development integrating FastAPI backend with React/Next.js frontend"
+      ],
+      "concerns": [
+        "Missing explicit cloud infrastructure experience like GCP/AWS/Docker",
+        "No mention of database usage or vector databases"
+      ],
+      "rank": 4
+    },
+    {
+      "candidate_name": "Shortlist Candidate 35",
+      "file_processed": "profile_35.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 60,
+      "score_breakdown": {
+        "ai_project_depth": 30,
+        "python_backend": 18,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Next.js",
+        "LangGraph"
+      ],
+      "project_summary": "Engineered a conversational AI agent platform featuring stateful LangGraph pipelines powered by FastAPI and interactive React dashboards.",
+      "github_summary": "No public GitHub link provided on resume.",
+      "strengths": [
+        "Experience building stateful AI agents using LangGraph",
+        "FastAPI integration for backend framework",
+        "Full-stack development capabilities using React and Next.js"
+      ],
+      "concerns": [
+        "Limited details provided in project descriptions",
+        "No explicit mention of vector databases or traditional databases (e.g., PostgreSQL)",
+        "No cloud (AWS/GCP) or containerization (Docker) mentioned"
+      ],
+      "rank": 5
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_05.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 6
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_06.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 7
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_08.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 8
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_09.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 9
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_11.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 10
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_12.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 11
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_14.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 12
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_15.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 13
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_17.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 14
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_18.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 15
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_20.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 16
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_21.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 17
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_23.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 18
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_24.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 19
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_26.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 20
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_27.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 21
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_29.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 22
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_30.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 23
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_36.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 24
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_38.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 25
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_39.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 26
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_41.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 27
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_42.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 28
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_44.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 29
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_45.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 30
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_47.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 31
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_48.txt",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 32
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_50.docx",
+      "eligible": true,
+      "rejection_reasons": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "matched_skills": [],
+      "project_summary": "Failed to parse content via AI model.",
+      "github_summary": "No profile link provided.",
+      "strengths": [],
+      "concerns": [
+        "API error or formatting issue occurred during ingestion."
+      ],
+      "rank": 33
+    },
+    {
+      "candidate_name": "Shortlist Candidate 01",
+      "file_processed": "profile_01.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "Backend Development",
+        "SQL"
+      ],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Shortlist Candidate 04",
+      "file_processed": "profile_04.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "TypeScript",
+        "Oracle SQL"
+      ],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_07.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_10.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_13.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_16.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_19.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_22.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_25.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_28.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Shortlist Candidate 31",
+      "file_processed": "profile_31.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "TypeScript",
+        "Oracle SQL"
+      ],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Shortlist Candidate 34",
+      "file_processed": "profile_34.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "Backend Development",
+        "Angular",
+        "TypeScript"
+      ],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_37.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_40.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_43.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_46.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    },
+    {
+      "candidate_name": "Unknown (Parse Failure)",
+      "file_processed": "profile_49.pdf",
+      "eligible": false,
+      "rejection_reasons": [
+        "No evidence of Python stack found.",
+        "No AI, RAG, or agentic systems project evidence found."
+      ],
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [],
+      "project_summary": "Excluded due to hard criteria rules.",
+      "github_summary": "Skipped.",
+      "strengths": [],
+      "concerns": [],
+      "rank": -1
+    }
+  ]
+}
